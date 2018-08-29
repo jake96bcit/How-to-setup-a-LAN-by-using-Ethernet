@@ -3,11 +3,13 @@
 - Crossover means **the order of the two pairs have to be different**. Therefore, we have two type of the cable head which are **T568A** and **T568B**.
 
 **T568A**:
+
 |Pin#|  1|  2|  3|  4|  5|  6|  7|  8|
 |----|---|---|---|---|---|---|---|---|
 |   |White/ Green| Green | White/ Orange| Blue| White/ Blue| Orange| White/ Brown|Brown|
 
 **T568B**:
+
 |Pin#|  1|  2|  3|  4|  5|  6|  7|  8|
 |----|---|---|---|---|---|---|---|---|
 |   |White/ Orange| Orange | White/ Green| Blue| White/ Blue| Green| White/ Brown|Brown|
@@ -47,6 +49,7 @@
 # Connection Map
 
 Com2  <---------------------------------> Com1 <----------------------------> Internet
+
 | IP Address |  Com2  <-> Com1 | Com1 <-> Internet |
 |--|--|--|
 |  | 192.168.0.2 <-> 192.168.0.1 | 192.168.1.99 <-> Internet|
