@@ -31,11 +31,11 @@
 10. Open **Command line** on both computers to test the connection.
 11. On Computer 1 **Command line** type:
 
-	`ping (The IP address of Computer 2)``
+	`ping (The IP address of Computer 2)`
 
 	  On Computer 2 **Command line** type:
 
-	`ping (The IP address of Computer 1)``
+	`ping (The IP address of Computer 1)`
 
 	Then On both computer, type:
 

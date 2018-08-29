@@ -37,9 +37,13 @@
 9. **TURN OFF** firewall at private and public Network on both Computers.
 10. Open **Command line** on both computers to test the connection.
 11. On Computer 1 **Command line** type:
+
 	`ping 192.168.0.2`
+	
 	  On Computer 2 **Command line** type:
+	  
 	`ping 192.168.0.1`
+	
 	By doing this, we are trying to see does computer 1 can connect to computer 2 or not and from computer 2 to computer 1.
 12. You can also share the internet connection to the other computer as well.
 **Situation**: Computer 1 have a wireless access to the internet and we want to share it to computer 2. We can do this by going to the **Network Connection and Internet** -> **Network Connection**
@@ -48,7 +52,7 @@
 
 # Connection Map
 
-Com2  <---------------------------------> Com1 <----------------------------> Internet
+Com2  <----------------------------------> Com1 <----------------------------> Internet
 
 |  |  Com2  <-> Com1 | Com1 <-> Internet |
 |--|--|--|
