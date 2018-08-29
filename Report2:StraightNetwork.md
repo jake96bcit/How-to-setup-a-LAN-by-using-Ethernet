@@ -52,9 +52,8 @@ Com2 <---------------------------------->| HUB |
 
 ```mermaid
 graph LR
-A[Com1] -->D[Hub]
-    B[Com2] --> D[Hub]
-    C[Other Devices] --> D[Hub]
-    D -->E[Internet]
-​```
-
+A[Com1] -->D[Hub];
+    B[Com2] --> D[Hub];
+    C[Other Devices] --> D[Hub];
+    D -->E[Internet];
+```
