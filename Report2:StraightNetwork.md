@@ -50,3 +50,11 @@ Com1 <---------------------------------->| HUB |<----------------------------> I
 Com2 <---------------------------------->| HUB |
 (Other devices) <----------------------->| HUB |
 
+```mermaid
+graph LR
+A[Com1] -->D[Hub]
+    B[Com2] --> D[Hub]
+    C[Other Devices] --> D[Hub]
+    D -->E[Internet]
+​```
+
