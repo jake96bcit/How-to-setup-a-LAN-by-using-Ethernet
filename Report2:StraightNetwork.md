@@ -42,10 +42,4 @@
 	`ping 8.8.8.8`
 
 	(8.8.8.8 is google DNS)
-	By doing this, we are trying to see does computer 1 can connect to computer 2 or not, from computer 2 to computer 1, and whether these computers can connect to the internet or not by.
-
-# Connection Map
-
-Com1 <->| HUB |
-Com2 <->| HUB |                                       
-(Other devices) <->| HUB |                                       
+	By doing this, we are trying to see does computer 1 can connect to computer 2 or not, from computer 2 to computer 1, and whether these computers can connect to the internet or not by.                                   
