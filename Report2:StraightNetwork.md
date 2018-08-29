@@ -46,14 +46,6 @@
 
 # Connection Map
 
-Com1 <---------------------------------->| HUB |<----------------------------> Internet
-Com2 <---------------------------------->| HUB |
-(Other devices) <----------------------->| HUB |
-
-<div class='mermaid'>
-LR
-A[Com1] -->D[Hub];
-    B[Com2] --> D[Hub];
-    C[Other Devices] --> D[Hub];
-    D -->E[Internet];
-</div>
+Com1 <->| HUB |
+Com2 <->| HUB |                                       
+(Other devices) <->| HUB |                                       
